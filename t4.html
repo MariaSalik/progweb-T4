@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">	
+  <meta type="viewport" content="height=device-height, width=device-width, initial-scale=1.0">
+  <title>Trabalho 4 - Programação Web </title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="script.js"></script>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+
+ </head>
+ <body>
+  <nav class="navbar">
+        <h1 class="navbar__title">Visualizeitor : Visualização da Grade Curricular de Ciência da Computação </h1>
+    </nav>
+  <main>
+        <div class="container" id="pesquisa"><h1 class="container__title" style=" font-size:15px; color: #FF69B4;">Busca por aluno</h1>
+
+    <form id="search-form">
+    <input type="text" class="container__input-text" placeholder="GRR000000(00-12)">
+    <button id="button" type="button">Procurar</button>
+</form></div>
+    <div id="modal" class="modal">
+            <div class="modal-content">
+            <span class="close">×</span>
+            <div id="modalBody"></div>
+            </div>
+    </div>
+    <div class="container hscroll" id="grade-curricular"><h1 class="container__title">Grade Curricular de BCC</h1>
+
+    <table class="beautify-table clickable-cells" oncontextmenu="return false;">
+	
+	    <tbody>
+		    <tr>
+			    <th>1</th>
+			    <th>2</th>
+			    <th>3</th>
+			    <th>4</th>
+			    <th>5</th>
+			    <th>6</th>
+			    <th>7</th>
+			    <th>8</th>
+		    </tr>
+		    <tr>
+			    <td>CI068</td>
+			    <td>CI210</td>
+			    <td>CI212</td>
+			    <td>CI215</td>
+			    <td>CI162</td>
+			    <td>CI163</td>
+			    <td>CI221</td>
+			    <td>OPT</td>
+		    </tr>
+		    <tr>
+			    <td>CI055</td>
+			    <td>CI056</td>
+			    <td>CI057</td>
+			    <td>CI062</td>
+			    <td>CI065</td>
+			    <td>CI165</td>
+			    <td>CI211</td>
+			    <td>OPT</td>
+		    </tr>
+		    <tr>
+			    <td>CM046</td>
+			    <td>CI067</td>
+			    <td>CI064</td>
+			    <td>CE003</td>
+			    <td>CI059</td>
+			    <td>CI209</td>
+			    <td>OPT</td>
+			    <td>OPT</td>
+		    </tr>
+		    <tr>
+			    <td>CM045</td>
+			    <td>CM005</td>
+			    <td>CI237</td>
+			    <td>CI058</td>
+			    <td>CI061</td>
+			    <td>CI218</td>
+			    <td>OPT</td>
+			    <td>OPT</td>
+		    </tr>
+		    <tr>
+			    <td>CM201</td>
+			    <td>CM202</td>
+			    <td>CI166</td>
+			    <td>CI164</td>
+			    <td>SA214</td>
+			    <td>CI220</td>
+			    <td>TG I</td>
+			    <td>TG II</td>
+		    </tr>
+	    </tbody>
+    </table></div>
+  </main>
+ </body>
+</html>
