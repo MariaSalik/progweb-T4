@@ -1,0 +1,39 @@
+element.style {
+}
+.beautify-table tr > td {
+    border-top: 1px solid #FFE4E1;
+}
+.beautify-table td, .beautify-table th {
+    min-width: 70px;
+    text-align: center;
+    padding: 5px 15px;
+    border: 3px solid pink;
+}
+
+.beautify-table td {
+    font-size: 12pt;
+}
+.beautify-table * {
+    border-collapse: collapse;
+}
+user agent stylesheet
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+.beautify-table {
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+
+user agent stylesheet
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+}
+html {
+    font-family: Optima, sans-serif;
+    font-weight: 150;
+}
